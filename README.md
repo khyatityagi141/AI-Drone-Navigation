@@ -1,32 +1,51 @@
 # AI-Drone-Navigation
-AI-Based Autonomous Drone Navigation and Dynamic Obstacle Avoidance Using Deep Reinforcement Learning.
-# AI-Based Autonomous Drone Navigation and Dynamic Obstacle Avoidance
+# 🚁 AI-Based Autonomous Drone Navigation and Dynamic Obstacle Avoidance
 
-## Project Overview
+## 📌 Project Overview
 This project focuses on developing an autonomous drone navigation system using Artificial Intelligence and Deep Reinforcement Learning.
 
-The main objective is to enable a drone to navigate through an environment, detect obstacles, and avoid collisions while reaching its target destination.
+The system aims to help a drone navigate through a 3D environment, identify obstacles, and avoid collisions while reaching a predefined destination.
 
-## Technologies Used
+## 🎯 Objectives
+- Develop autonomous drone navigation.
+- Implement dynamic obstacle avoidance.
+- Train a drone using Deep Reinforcement Learning.
+- Simulate realistic environments using MuJoCo.
+
+## 🛠️ Technologies Used
 - Python
-- Deep Reinforcement Learning
-- Proximal Policy Optimization (PPO)
 - MuJoCo
 - Gymnasium
 - Stable-Baselines3
+- Proximal Policy Optimization (PPO)
+- Deep Reinforcement Learning
 
-## Key Features
-- Autonomous drone navigation
-- Dynamic obstacle avoidance
-- 3D simulation environment
-- PPO-based reinforcement learning
-- Target-based navigation
+## ✨ Key Features
+- 3D drone simulation.
+- Autonomous navigation.
+- Dynamic obstacle avoidance.
+- PPO-based model training.
+- Realistic environment with buildings, trees and other objects.
 
-## Project Status
-Under Development 🚧
+## 📂 Project Structure
+- `drone_env.py` – Drone environment.
+- `drone_simulation.py` – Simulation functionality.
+- `dynamic_obstacle.py` – Dynamic obstacle implementation.
+- `obstacle_avoidance.py` – Obstacle avoidance logic.
+- `ppo_mujoco.py` – PPO training and simulation.
+- `realistic_scene.py` – Realistic 3D environment.
+- `assets/` – 3D models and environment assets.
 
-## Future Scope
-- Real-time obstacle detection
-- Integration of additional sensors
-- Real-world drone testing
-- Improved navigation performance
+## 🚀 Future Improvements
+- Real-time obstacle detection.
+- Improved navigation accuracy.
+- Integration with physical drone hardware.
+- Advanced sensor integration.
+
+## 📌 Project Status
+Under Development.
+
+## 👩‍💻 Developer
+Khyati Tyagi
+
+GitHub: https://github.com/khyatityagi141
